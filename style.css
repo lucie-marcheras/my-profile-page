@@ -1,0 +1,122 @@
+body{
+	background-color: rgb(170, 203, 115 );
+	color: rgb(255, 256, 250);
+	font-family: "Patrick Hand", cursive;
+ 	font-weight: 400;
+ 	font-style: normal;
+ 	font-size: 23px;
+ 	line-height: 20px;
+}
+h1, h2, h3, h4, h5 {
+	font-family: "Calistoga", serif;
+ 	font-weight: 400;
+ 	font-style: normal;
+}
+
+h1 {
+	color: rgb(255, 109, 198 );
+	font-size: 40px;
+}
+
+h2, h3, h4, h5 {
+	color: rgb(210, 125, 150);
+	font-size: 28px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:hover {
+	color: rgb(255, 109, 198);
+}
+
+
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	background-color: rgb(170, 203, 115 );
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width: 550px) {
+	.container {
+		width: 450px;
+	}
+}
+
+
+
+.card-softwhite {
+	padding: 60px;
+    background: rgb(255, 210, 220);
+    margin: 50px;
+    box-shadow: 10px 10px 30px darkolivegreen;
+    border-radius: 20px;
+    text-align: center;
+}
+.card-softwhite p {
+	text-shadow: 3px 3px 5px rgb(230, 155, 170 );
+}
+
+	
+.img-borders {
+	border-radius: 30%;
+}
+
+.btn-pink {
+	background-color: rgb(210, 125, 150);
+	color : rgb(255, 256, 250);
+	padding: 10px 20px;
+	Border-radius: 4px;
+	margin: 5px;
+}
+.btn-pink:hover {
+	background-color: rgb(255, 109, 198 );
+	color: rgb(190, 223, 135);
+}
+
+.list-inline {
+	list-style none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(255, 256, 250);
+} 
+.list-inline i:hover{
+	font-size: 50px;
+	color: rgb(255, 109, 198);
+} 
+
+
+
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+soft white : rgb(255, 256, 250)
+very light pink : rgb(255, 210, 220)
+old pink : rgb(230, 155, 170 )
+dark old pink: rgb(210, 125, 150)
+neon pink : rgb(255, 109, 198 )
+light green : rgb(170, 203, 115 )
+lighter green : rgb(190, 223, 135)
+
+
